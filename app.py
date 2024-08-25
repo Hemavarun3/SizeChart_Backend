@@ -85,7 +85,7 @@ def predict_datapoint():
             if isinstance(results, np.ndarray):
                 results = results.tolist()
             if category == 'top':
-                size_mapping = {0: "S", 1: "L", 2: "M", 3: "XL"}
+                size_mapping = {0: "M", 1: "XL", 2: "S", 3: "L"}
             elif category == 'bottom':
                 size_mapping = {0: "S", 1: "XL", 2: "L", 3: "M"}
             
