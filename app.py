@@ -84,8 +84,11 @@ def predict_datapoint():
             # Convert the numerical prediction results to size labels
             if isinstance(results, np.ndarray):
                 results = results.tolist()
-
-            size_mapping = {0: "S", 1: "L", 2: "M", 3: "XL"}
+            if category == 'top':
+                size_mapping = {0: "S", 1: "L", 2: "M", 3: "XL"}
+            elif category == 'bottom':
+                size_mapping = {0: "S", 1: "XL", 2: "L", 3: "M"}
+            
             size_label = size_mapping.get(results[0], "Unknown") if results and isinstance(results[0], int) else "No prediction result found."
 
             # Return prediction result as JSON
