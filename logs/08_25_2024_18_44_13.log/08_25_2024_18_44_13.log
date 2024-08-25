@@ -1,0 +1,9 @@
+[ 2024-08-25 18:44:13,194 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 18:44:13,201 ] 97 werkzeug - INFO -  * Debugger PIN: 192-527-028
+[ 2024-08-25 18:44:15,568 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:44:15] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 18:44:15,761 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [45] error message [columns are missing: {'che_gi', 'nav_gi', 'sho_gi'}]
+[ 2024-08-25 18:44:15,761 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:44:15] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 18:45:10,244 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:45:10] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 18:45:10,274 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [45] error message [columns are missing: {'che_gi', 'nav_gi', 'sho_gi'}]
+[ 2024-08-25 18:45:10,275 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:45:10] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 18:46:13,512 ] 97 werkzeug - INFO -  * Detected change in '/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py', reloading

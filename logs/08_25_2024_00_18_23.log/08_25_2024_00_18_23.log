@@ -1,0 +1,8 @@
+[ 2024-08-25 00:18:23,216 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 00:18:23,223 ] 97 werkzeug - INFO -  * Debugger PIN: 192-527-028
+[ 2024-08-25 00:18:32,079 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 00:18:32] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 00:18:43,822 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 00:18:43] "POST /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 00:18:43,823 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 00:18:43] "POST /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 00:21:35,935 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 00:21:35] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 00:21:35,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 00:21:35] "POST /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 00:25:49,237 ] 97 werkzeug - INFO -  * Detected change in '/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/app.py', reloading

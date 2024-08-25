@@ -1,0 +1,50 @@
+<html>
+<body>
+    <div class="login">
+       <h1>Student Exam Performance Indicator</h1>
+   
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <h1>
+            <legend>Size Chart Predictor</legend>
+        </h1>
+        <div class="mb-3">
+          <label class="form-label">Gender</label>
+          <select class="form-control" name="gender" placeholder="Enter you Gender" required>
+              <option class="placeholder" selected disabled value="">Select your Gender</option>
+              <option value="male">
+                  Male
+              </option>
+              <option value="female">
+                  Female
+              </option>
+          </select>
+      </div>
+        <div class="mb-3">
+            <label class="form-label">Enter your che_gi score</label>
+            <input class="form-control" type="number" name="che_gi"
+                placeholder="Enter your che_gi score" min='0' max='200' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Enter your wai_gi score</label>
+            <input class="form-control" type="number" name="wai_gi"
+                placeholder="Enter your wai_gi Score" min='0' max='200' />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Enter your nav_gi score</label>
+          <input class="form-control" type="number" name="nav_gi"
+              placeholder="Enter your nav_gi Score" min='0' max='200' />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Enter your sho_gi score</label>
+          <input class="form-control" type="number" name="sho_gi"
+              placeholder="Enter your sho_gi Score" min='0' max='200' />
+        </div>
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Loose Weight" required />
+        </div>
+    </form>
+    <h2>
+       THE  prediction is {{results}}
+    </h2>
+   <body>
+</html>

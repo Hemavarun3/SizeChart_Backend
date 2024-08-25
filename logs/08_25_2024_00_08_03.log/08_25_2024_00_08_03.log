@@ -1,0 +1,3 @@
+[ 2024-08-25 00:08:03,415 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 00:08:03,424 ] 97 werkzeug - INFO -  * Debugger PIN: 192-527-028
+[ 2024-08-25 00:16:24,408 ] 97 werkzeug - INFO -  * Detected change in '/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/app.py', reloading

@@ -1,0 +1,14 @@
+[ 2024-08-25 18:14:24,913 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 18:14:24,923 ] 97 werkzeug - INFO -  * Debugger PIN: 192-527-028
+[ 2024-08-25 18:14:27,054 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:14:27] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 18:14:27,059 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:14:27] "[31m[1mPOST /predictdata HTTP/1.1[0m" 400 -
+[ 2024-08-25 18:16:33,602 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:16:33] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 18:16:33,651 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [40] error message [Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [30] error message ['NoneType' object has no attribute 'tb_frame']]
+[ 2024-08-25 18:16:33,652 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:16:33] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 18:16:55,837 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:16:55] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 18:16:55,845 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [40] error message [Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [30] error message ['NoneType' object has no attribute 'tb_frame']]
+[ 2024-08-25 18:16:55,846 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:16:55] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 18:17:20,002 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:17:20] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 18:17:20,017 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [40] error message [Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [30] error message ['NoneType' object has no attribute 'tb_frame']]
+[ 2024-08-25 18:17:20,018 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 18:17:20] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 18:18:45,343 ] 97 werkzeug - INFO -  * Detected change in '/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py', reloading

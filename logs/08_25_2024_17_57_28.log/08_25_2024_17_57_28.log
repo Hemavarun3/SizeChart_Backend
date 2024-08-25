@@ -1,0 +1,6 @@
+[ 2024-08-25 17:57:28,393 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 17:57:28,402 ] 97 werkzeug - INFO -  * Debugger PIN: 192-527-028
+[ 2024-08-25 17:57:48,810 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 17:57:48] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 17:57:48,813 ] 96 root - ERROR - Error during prediction: 'NoneType' object has no attribute 'lower'
+[ 2024-08-25 17:57:48,813 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 17:57:48] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 17:59:51,789 ] 97 werkzeug - INFO -  * Detected change in '/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/app.py', reloading

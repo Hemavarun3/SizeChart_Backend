@@ -1,0 +1,12 @@
+[ 2024-08-25 19:15:27,361 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-25 19:15:27,371 ] 97 werkzeug - INFO -  * Debugger PIN: 192-527-028
+[ 2024-08-25 19:16:16,562 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 19:16:16] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 19:16:16,967 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [41] error message [Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/utils.py] line number [59] error message [No module named 'src.components.data_transformer']]
+[ 2024-08-25 19:16:16,967 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 19:16:16] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 19:17:11,444 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 19:17:11] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 19:17:11,464 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [41] error message [Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/utils.py] line number [59] error message [No module named 'src.components.data_transformer']]
+[ 2024-08-25 19:17:11,464 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 19:17:11] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 19:19:25,710 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 19:19:25] "OPTIONS /predictdata HTTP/1.1" 200 -
+[ 2024-08-25 19:19:25,729 ] 95 root - ERROR - Error during prediction: Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/pipeline/predict_pipeline.py] line number [41] error message [Error occurred in Python Script name [/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/utils.py] line number [59] error message [No module named 'src.components.data_transformer']]
+[ 2024-08-25 19:19:25,729 ] 97 werkzeug - INFO - 127.0.0.1 - - [25/Aug/2024 19:19:25] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2024-08-25 19:28:29,650 ] 97 werkzeug - INFO -  * Detected change in '/Users/hemavarunmupparaju/Downloads/End-to-End-Size-Chart-Generator-main/src/components/data_ingestion.py', reloading
